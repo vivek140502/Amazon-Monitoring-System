@@ -11,7 +11,7 @@ from google.cloud import storage
 
 # Load environment variables
 load_dotenv()
-SERVICE_ACCOUNT_FILE = "/secrets/GCS_KEY_FILE"
+SERVICE_ACCOUNT_FILE = "/secrets/GCS_KEY_FILE/amazon-monitoring-453611-99dccfb3bece.json"
 
 # Set the environment variable for authentication
 if os.path.exists(SERVICE_ACCOUNT_FILE):
