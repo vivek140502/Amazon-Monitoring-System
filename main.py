@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 from gcs_util import upload_to_gcs, download_excel
 from amazon_api import check_amazon_product_updates
 from fastapi.middleware.cors import CORSMiddleware
+from google.cloud import storage
+
 
 # Load environment variables
 load_dotenv()
