@@ -10,7 +10,7 @@ from google.cloud import storage
 
 # Load environment variables
 load_dotenv()
-SERVICE_ACCOUNT_FILE = "projects/455503351963/secrets/GCS_KEY_FILE"
+SERVICE_ACCOUNT_FILE = "/secrets/GCS_KEY_FILE"
 
 # Set the environment variable for authentication
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = SERVICE_ACCOUNT_FILE
